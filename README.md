@@ -1,8 +1,7 @@
 # Hyundai Spring 2016 Quarterly Coupon Mailer
 These are emails for Hyundai's Spring 2016 QCM (Quarterly Coupon Mailer).  Included is the standard eblast (in English and Spanish) and one for  luxury car (premium) owners. Using "variable data" provided by Hyundai, these emails are customized coupon offers to entice customers to visit their local dealership.
 
-| Standard<br>(English) | Standard              | Premium             | 
-|                       | (Spanish)             |                     |
+| Standard<br>(English) | Standard<br>(Spanish) | Premium             | 
 |-----------------------|-----------------------|---------------------|
 | [320px][en320]        | [320px][sp320]        | [320px][pre320]     |
 | [480px][en480]        | [480px][sp480]        | [480px][pre480]     |
