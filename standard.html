@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- Updated 3/23/2016 JSB -->
-<!-- Updated for portfolio 12/30/2021 JSB -->
+<!-- Updated for portfolio 01/03/2021 JSB -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -72,10 +72,7 @@ label:hover { cursor:pointer !important; }
 #aside>tbody>tr>th:last-of-type { padding-top:4px !important; }
 #aside>tbody>tr>th:last-of-type #apps>tbody>tr:last-of-type>td { padding-bottom:34px !important; }
 #aside>tbody>tr>th>table { width:85% !important; }
-#links img { width:auto !important; height:68px !important; }
-#links th:nth-of-type(2) { padding:0 1px !important; }
-#links tr:first-of-type td { padding-top:20px !important; }
-#map img { width:321px !important; }
+#map img { width:310px !important; border:7px solid #0b2e75 !important; }
 #apps tr:last-of-type td br { display:none; }
 #apps img { display:inline !important; width:190px !important; }
 #apps table tr { display:table-cell !important; }
@@ -92,7 +89,10 @@ label:hover { cursor:pointer !important; }
 #panel-HOW th td { text-align:center !important; }
 #panel-HOW img { margin:0 auto; float:none !important; }
 #panel-HOW th:last-of-type img { margin-top:15px !important; }
-#footer>tbody>tr>td { padding-top:24px !important; }
+#links tr:first-of-type td { padding:40px 50px 16px !important; }
+#links th:nth-of-type(2) { padding:0 1px !important; }
+#links th { display:block; width:100% !important; }
+#links img { display:block; width:273px !important; height:auto !important; margin:5px auto 0 !important; }
 } 
 /* Smartphones (portrait only) ----------- */
 @media only screen and (max-width:479px) {
@@ -117,15 +117,15 @@ label:hover { cursor:pointer !important; }
 .offer-details img { width:130px !important; margin-right:-10px !important; }
 #owner-perks .section-heading td:first-of-type { background-size:30px 37px !important; }
 .copy { width:85% !important; }
-#links th { display:block; width:100% !important; }
-#links img { display:block; width:220px !important; height:auto !important; margin:5px auto 0 !important; }
-#map img { width:217px !important; }
+#map img { width:217px !important; border:5px solid #0b2e75 !important; }
 #apps img { width:126px !important; }
 #socialMedia>tbody>tr:first-of-type td { padding-bottom:14px !important; }
 #socialMedia table td { width:53px !important; }
 #socialMedia table img { width:48px !important; }
 #socialMedia, #surecritic-mobile { width:100% !important; float:none !important; }
 #surecritic-mobile { width:65% !important; margin-top:25px !important; }
+#links tr:first-of-type td { padding:20px 0 16px !important; }
+#links img { display:block; width:220px !important; height:auto !important; margin:5px auto 0 !important; }
 #panel-HOW>tbody>tr>td { padding:12px 0 30px !important; font-size:95% !important; }
 }
 /* Small Displays, Small Tablets (portrait only) ----------- */
@@ -144,16 +144,16 @@ img { height:auto !important; }
 .offer-details tr:first-of-type td { padding-left:18px !important; }
 .offer-details img { width:97px !important; }
 #aside>tbody>tr>th>table>tbody>tr>td:first-of-type { width:56px !important; }
-#links tr:first-of-type td { padding-top:34px !important; }
-#logo-assurance img { width:164px !important; }
-#logo-bluelink img, #logo-rewards img { width:166px !important; }
 #map img { width:195px !important; }
-#apps img { width:115px !important; }
+#apps img { width:150px !important; }
 #socialMedia table td { width:49px !important; }
 #socialMedia table img { width:39px !important; }
 #panel-HOW>tbody>tr>td { padding:15px 0 21px !important; }
 #thankyou { width:178px !important; }
 #how { width:217px !important; }
+#links tr:first-of-type td { padding-top:34px !important; }
+#logo-assurance img { width:164px !important; }
+#logo-bluelink img, #logo-rewards img { width:166px !important; }
 #footer>tbody>tr>td { padding-top:33px !important; }
 }
 /* Large Displays ----------- */
@@ -174,18 +174,19 @@ img { height:auto !important; }
 .offer-details tr:first-of-type td { padding-left:32px !important; }
 .offer-details img { width:174px !important; }
 .bullets td:first-of-type { width:19px !important; }
-#links tr:first-of-type td { padding-top:57px !important; }
-#logo-assurance img { width:273px !important; }
-#logo-bluelink img, #logo-rewards img { width:277px !important; }
 #aside { font-size:90% !important; }
-#map img { width:321px !important; }
+#map img { width:320px !important; border:7px solid #0b2e75 !important; }
 #apps img { width:191px !important; }
 #apps span { display:block; }
+#apps>tbody>tr:last-of-type>td { padding-bottom:85px !important; }
 #socialMedia table td { padding-right:15px !important; }
 #socialMedia table img { width:66px !important; }
 #panel-HOW>tbody>tr>td { padding:24px 0 35px !important; }
 #thankyou { width:295px !important; }
 #how { width:359px !important; }
+#links tr:first-of-type td { padding-top:57px !important; }
+#logo-assurance img { width:273px !important; }
+#logo-bluelink img, #logo-rewards img { width:277px !important; }
 #footer>tbody>tr>td { padding-top:54px !important; }
 }
 </style>
@@ -268,11 +269,11 @@ img { height:auto !important; }
 	<!--[if !mso 9]><!--><input id="chkbox1" class="checkbox" type="checkbox" checked="checked" style="display:none !important;"><!--<![endif]-->
 
 	<label for="chkbox1" style="cursor:text;">
-	<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
-	<tr><td class="heading" style="padding-left:50px;">
-		<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Owner-Perks.gif" width="391" height="58" alt="[HEADING] Owner Perks" style="display:block;color:#ffffff;"/>
-	</td></tr>
-	</table><!-- END: heading -->
+		<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
+		<tr><td class="heading" style="padding-left:50px;">
+			<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Owner-Perks.gif" width="391" height="58" alt="[HEADING] Owner Perks" style="display:block;color:#ffffff;"/>
+		</td></tr>
+		</table><!-- END: section-heading -->
 	</label>
 
 	<div class="panelWrap">
@@ -321,7 +322,6 @@ img { height:auto !important; }
          <!-- START: offer -->
          <table bgcolor="#97d4e7" width="98%" align="center" cellspacing="0" cellpadding="0" class="offer" style="margin:0 auto;border-bottom:10px solid #ffffff;">
          <tr><td style="padding:15px 0;">
-         
    
             <table width="100%" cellpadding="0" cellspacing="0" class="offer-wrap">
             <tr>
@@ -526,11 +526,11 @@ img { height:auto !important; }
 	<!--[if !mso 9]><!--><input id="chkbox2" class="checkbox" type="checkbox" style="display:none !important;"><!--<![endif]-->
 
 	<label for="chkbox2" style="cursor:text;">		
-	<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
-	<tr><td class="heading" style="padding-left:50px;">
-		<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Complete-Care.gif" width="391" height="58" alt="[HEADING] Complete Care" style="display:block;color:#ffffff;"/>
-	</td></tr>
-	</table><!-- END: heading -->
+		<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
+		<tr><td class="heading" style="padding-left:50px;">
+			<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Complete-Care.gif" width="391" height="58" alt="[HEADING] Complete Care" style="display:block;color:#ffffff;"/>
+		</td></tr>
+		</table><!-- END: section-heading -->
 	</label>
    
 	<div class="panelWrap">
@@ -585,11 +585,11 @@ img { height:auto !important; }
 	<!--[if !mso 9]><!--><input id="chkbox3" class="checkbox" type="checkbox" style="display:none !important;"><!--<![endif]-->
 
 	<label for="chkbox3" style="cursor:text;">		
-	<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
-	<tr><td class="heading" style="padding-left:50px;">
-		<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Car-Care-Advantage.gif" width="391" height="58" alt="[HEADING] Car Care Advantage" style="display:block;color:#ffffff;"/>
-	</td></tr>
-	</table><!-- END: heading -->
+		<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
+		<tr><td class="heading" style="padding-left:50px;">
+			<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Car-Care-Advantage.gif" width="391" height="58" alt="[HEADING] Car Care Advantage" style="display:block;color:#ffffff;"/>
+		</td></tr>
+		</table><!-- END: section-heading -->
 	</label>
 
 	<div class="panelWrap">
@@ -621,11 +621,11 @@ img { height:auto !important; }
 	<!--[if !mso 9]><!--><input id="chkbox4" class="checkbox" type="checkbox" style="display:none !important;"><!--<![endif]-->
 
 	<label for="chkbox4" style="cursor:text;">		
-	<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
-	<tr><td class="heading" style="padding-left:50px;">
-		<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Loyalty-Offer.gif" width="391" height="58" alt="[HEADING] Loyalty Offer" style="display:block;color:#ffffff;"/>
-	</td></tr>
-	</table><!-- END: heading -->
+		<table bgcolor="#0b2e75" width="100%" cellpadding="0" cellspacing="0" class="section-heading">
+		<tr><td class="heading" style="padding-left:50px;">
+			<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/hdr_Loyalty-Offer.gif" width="391" height="58" alt="[HEADING] Loyalty Offer" style="display:block;color:#ffffff;"/>
+		</td></tr>
+		</table><!-- END: section-heading -->
 	</label>
    
 	<div class="panelWrap">
@@ -669,7 +669,7 @@ img { height:auto !important; }
 				
 				<table width="100%" cellpadding="0" cellspacing="0" class="aside-copy">
 				<tr><td class="aside-heading" style="padding:0 0 14px;color:#0b2e75;font-family:Trebuchet MS,Tahoma,sans-serif;font-size:1.25em;line-height:1.1em;">
-					<b>SCHEDULE CAR CARE:</b>
+					<a href="#" target="_blank" style="color:#0b2e75;text-decoration:none;"><b>SCHEDULE CAR CARE:</b></a>
 				</td></tr>
 				<tr><td style="padding:0 0 30px;color:#333333;font-family:Trebuchet MS,Tahoma,sans-serif;font-size:1.03em;line-height:1.3em;">
 					<b style="color:#0b2e75;">SERVICE HOURS</b> <br/>
@@ -691,7 +691,7 @@ img { height:auto !important; }
 				
 					<table width="auto" cellpadding="0" cellspacing="0">
 					<tr><td id="map">
-						<a href="#" target="_blank"><img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/fpo_map-directions.jpg" width="228" alt="Map Directions to Dealer" border="0" style="display:block;"/></a>
+						<a href="#" target="_blank"><img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/fpo_map-directions.jpg" width="218" alt="Map Directions to Dealer" border="0" style="display:block;border:5px solid #0b2e75;"/></a>
 					</td></tr>
 					</table>
 					
@@ -711,16 +711,16 @@ img { height:auto !important; }
 				<tr><td class="aside-heading" style="padding:0 0 14px;color:#0b2e75;font-family:Trebuchet MS,Tahoma,sans-serif;font-size:1.25em;line-height:1.1em;">
 					<b>DOWNLOAD THE <span>HYUNDAI ASSURANCE</span> CAR CARE APP<sup class="reg" style="font-size:0.9em;line-height:0;vertical-align:0.25em;">*</sup>:</b>
 				</td></tr>
-				<tr><td style="padding:0 0 50px;">
+				<tr><td style="padding:0 0 68px;">
 
 					<table width="100%" cellpadding="0" cellspacing="0">
 					<tr><td style="padding:0 0 10px;">
 						<a href="https://itunes.apple.com/us/app/hyundai-car-care/id622764612?mt=8" target="_blank">
-							<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/btn_Apple-App-Store-Download.png" width="134" height="42" alt="[BUTTON] Download on the App Store" border="0" style="display:block;"/></a>
+							<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/btn_Apple-App-Store-Download.png" width="150" height="47" alt="[BUTTON] Download on the App Store" border="0" style="display:block;"/></a>
 					</td></tr>
 					<tr><td>
 						<a href="https://play.google.com/store/apps/details?id=com.hyundai.carcare&hl=en" target="_blank">
-							<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/btn_Google-Play-App-Download.png" width="134" height="42" alt="[BUTTON] Download on Google Play" border="0" style="display:block;"/></a>
+							<img src="https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/img/btn_Google-Play-App-Download.png" width="150" height="47" alt="[BUTTON] Download on Google Play" border="0" style="display:block;"/></a>
 					</td></tr>
 					</table>
 
