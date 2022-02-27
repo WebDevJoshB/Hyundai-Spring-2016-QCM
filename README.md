@@ -45,7 +45,7 @@ Note that using a web browser only gives an approximation of the mobile or devic
 Coming soon.
 
 
-  [src1]: https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/standard-english.html
+  [src1]: https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/standard.html
   [src2]: https://webdevjoshb.github.io/Hyundai-Spring-2016-QCM/premium.html
   [src3]: https://developer.chrome.com/docs/devtools/device-mode/#viewport
   [src4]: https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
